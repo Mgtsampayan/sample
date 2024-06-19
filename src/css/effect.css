@@ -1,0 +1,173 @@
+/* .tooltip-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.tooltip-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.tooltip-container:hover img {
+    transform: scale(1.05);
+    filter: blur(5px);
+}
+
+.tooltip-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: visibility 0.3s, opacity 0.3s;
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+} */
+
+/* SECOND APPROACH */
+
+/* Base container styling */
+
+/* .tooltip-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tooltip-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s, filter 0.3s;
+    border-radius: 15px;
+}
+
+.tooltip-container:hover img {
+    transform: scale(1.2);
+    filter: blur(5px);
+}
+
+.tooltip-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 30px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: visibility 0.3s, opacity 0.3s;
+    font-size: 1.25rem;
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+} */
+
+
+/* THIRD APPROACH */
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+    padding: 2rem;
+}
+
+/* Grid container styling */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Changed 2fr to 1fr for larger items */
+    gap: 2rem;
+    width: 100%;
+    max-width: 1600px;
+    /* Increased max-width */
+}
+
+/* Base container styling */
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling with transitions */
+.tooltip-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s, filter 0.3s;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* Hover effect for the image */
+.tooltip-container:hover img {
+    transform: scale(1.1);
+    filter: blur(3px);
+}
+
+/* Tooltip text styling */
+.tooltip-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 30px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: visibility 0.3s, opacity 0.3s;
+    font-size: 1.25rem;
+}
+
+/* Show the tooltip text on hover */
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        /* Single column layout for small screens */
+    }
+
+    .tooltip-text {
+        font-size: 1rem;
+        /* Smaller font size for tooltips on small screens */
+        padding: 10px 20px;
+        /* Smaller padding for tooltips on small screens */
+    }
+}
