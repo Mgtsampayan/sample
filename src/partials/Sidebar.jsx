@@ -3,6 +3,7 @@ import { NavLink, useLocation } from 'react-router-dom';
 
 import SidebarLinkGroup from './SidebarLinkGroup';
 
+// eslint-disable-next-line react/prop-types
 function Sidebar({ sidebarOpen, setSidebarOpen }) {
   const location = useLocation();
   const { pathname } = location;
@@ -102,7 +103,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
               <circle cx="50" cy="50" r="50" fill="#0000FF" />
               <polygon points="50,15 61,35 85,35 66,50 72,70 50,58 28,70 34,50 15,35 39,35"
                 fill="#FFFFFF" />
-              <text x="50" y="90" font-family="Arial" font-size="12" text-anchor="middle" fill="#FFFFFF">
+              <text x="50" y="90" fontFamily="Arial" fontSize="12" textAnchor="middle" fill="#FFFFFF">
                 STAR
               </text>
             </svg>

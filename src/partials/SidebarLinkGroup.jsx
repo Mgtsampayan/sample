@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import PropTypes from 'prop-types'
 
 function SidebarLinkGroup({
   children,
@@ -16,6 +17,11 @@ function SidebarLinkGroup({
       {children(handleClick, open)}
     </li>
   );
+}
+
+SidebarLinkGroup.propTypes = {
+  children: PropTypes.func.isRequired,
+  isActive: PropTypes.bool.isRequired,
 }
 
 export default SidebarLinkGroup;
