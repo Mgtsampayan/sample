@@ -114,6 +114,11 @@ function Transition({ show, appear, ...rest }) {
   )
 }
 
+Transition.propTypes = {
+  show: PropTypes.bool,
+  appear: PropTypes.bool,
+}
+
 CSSTransition.propTypes = {
     show: PropTypes.bool,
     enter: PropTypes.string,

@@ -1212,7 +1212,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                           <li className="mb-1 last:mb-0">
                             <NavLink
                               end
-                              to="/coming-soon" // to="/component/button"
+                              to="/component/button"
                               className={({ isActive }) =>
                                 'block transition duration-150 truncate ' + (isActive ? 'text-indigo-500' : 'text-slate-400 hover:text-slate-200')
                               }
@@ -1225,13 +1225,156 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                           <li className="mb-1 last:mb-0">
                             <NavLink
                               end
-                              to="/coming-soon" // to="/component/alert"
+                              to="/component/form"
                               className={({ isActive }) =>
                                 'block transition duration-150 truncate ' + (isActive ? 'text-indigo-500' : 'text-slate-400 hover:text-slate-200')
                               }
                             >
                               <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Coming Soon
+                                Input Form
+                              </span>
+                            </NavLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <NavLink
+                              end
+                              to="/component/dropdown"
+                              className={({ isActive }) =>
+                                'block transition duration-150 truncate ' + (isActive ? 'text-indigo-500' : 'text-slate-400 hover:text-slate-200')
+                              }
+                            >
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Dropdown
+                              </span>
+                            </NavLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <NavLink
+                              end
+                              to="/component/alert"
+                              className={({ isActive }) =>
+                                'block transition duration-150 truncate ' + (isActive ? 'text-indigo-500' : 'text-slate-400 hover:text-slate-200')
+                              }
+                            >
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Alert & Banner
+                              </span>
+                            </NavLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <NavLink
+                              end
+                              to="/component/modal"
+                              className={({ isActive }) =>
+                                'block transition duration-150 truncate ' + (isActive ? 'text-indigo-500' : 'text-slate-400 hover:text-slate-200')
+                              }
+                            >
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Modal
+                              </span>
+                            </NavLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <NavLink
+                              end
+                              to="/component/pagination"
+                              className={({ isActive }) =>
+                                'block transition duration-150 truncate ' + (isActive ? 'text-indigo-500' : 'text-slate-400 hover:text-slate-200')
+                              }
+                            >
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Pagination
+                              </span>
+                            </NavLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <NavLink
+                              end
+                              to="/component/tabs"
+                              className={({ isActive }) =>
+                                'block transition duration-150 truncate ' + (isActive ? 'text-indigo-500' : 'text-slate-400 hover:text-slate-200')
+                              }
+                            >
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Tabs
+                              </span>
+                            </NavLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <NavLink
+                              end
+                              to="/component/breadcrumb"
+                              className={({ isActive }) =>
+                                'block transition duration-150 truncate ' + (isActive ? 'text-indigo-500' : 'text-slate-400 hover:text-slate-200')
+                              }
+                            >
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Breadcrumb
+                              </span>
+                            </NavLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <NavLink
+                              end
+                              to="/component/badge"
+                              className={({ isActive }) =>
+                                'block transition duration-150 truncate ' + (isActive ? 'text-indigo-500' : 'text-slate-400 hover:text-slate-200')
+                              }
+                            >
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Badge
+                              </span>
+                            </NavLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <NavLink
+                              end
+                              to="/component/avatar"
+                              className={({ isActive }) =>
+                                'block transition duration-150 truncate ' + (isActive ? 'text-indigo-500' : 'text-slate-400 hover:text-slate-200')
+                              }
+                            >
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Avatar
+                              </span>
+                            </NavLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <NavLink
+                              end
+                              to="/component/tooltip"
+                              className={({ isActive }) =>
+                                'block transition duration-150 truncate ' + (isActive ? 'text-indigo-500' : 'text-slate-400 hover:text-slate-200')
+                              }
+                            >
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Tooltip
+                              </span>
+                            </NavLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <NavLink
+                              end
+                              to="/component/accordion"
+                              className={({ isActive }) =>
+                                'block transition duration-150 truncate ' + (isActive ? 'text-indigo-500' : 'text-slate-400 hover:text-slate-200')
+                              }
+                            >
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Accordion
+                              </span>
+                            </NavLink>
+                          </li>
+                          <li className="mb-1 last:mb-0">
+                            <NavLink
+                              end
+                              to="/component/icons"
+                              className={({ isActive }) =>
+                                'block transition duration-150 truncate ' + (isActive ? 'text-indigo-500' : 'text-slate-400 hover:text-slate-200')
+                              }
+                            >
+                              <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                                Icons
                               </span>
                             </NavLink>
                           </li>
