@@ -18,7 +18,7 @@ const LandingPage = () => {
           />
           <div className="tooltip-text">Student</div>
         </div>
-        <div className="tooltip-container" onClick={() => navigate('/faculty-dashboard')}>
+        <div className="tooltip-container" onClick={() => navigate('/faculty-login')}>
           <img 
             src={facultyImg} 
             alt="Faculty" 
