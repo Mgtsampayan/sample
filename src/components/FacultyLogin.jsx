@@ -48,7 +48,7 @@ const FacultyLogin = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-10"></div>
       <div className="relative z-10 p-10 bg-white bg-opacity-70 rounded-lg shadow-2xl max-w-md w-full">
         <div className="branding mb-6 text-center">
-          <h1 className="text-3xl font-extrabold text-gray-900">OLIVAREZ COLLEGE LOGIN PORTAL</h1>
+          <h1 className="text-3xl font-extrabold text-gray-900">OLIVAREZ UNIVERSITY FACULTY LOGIN</h1>
         </div>
         {countdown !== null && (
           <div className="text-red-500 mb-4">
