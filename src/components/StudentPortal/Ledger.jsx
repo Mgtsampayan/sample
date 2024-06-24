@@ -23,7 +23,7 @@ const Ledger = () => {
                             <td className="py-2 text-center">{transaction.id}</td>
                             <td className="py-2">{transaction.date}</td>
                             <td className="py-2">{transaction.description}</td>
-                            <td className="py-2">${transaction.amount}</td>
+                            <td className="py-2">{transaction.amount}</td>
                         </tr>
                     ))}
                 </tbody>
