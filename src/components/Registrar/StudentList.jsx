@@ -7,7 +7,7 @@ const students = [
 const StudentList = () => {
     return (
         <div className="p-4">
-            <h2 className="text-xl font-bold mb-4">Student List</h2>
+            <h2 className="text-xl font-bold mb-6">Student List</h2>
             <table className="min-w-full bg-white">
                 <thead>
                     <tr>
@@ -20,8 +20,8 @@ const StudentList = () => {
                     {students.map(student => (
                         <tr key={student.id} className="bg-gray-100">
                             <td className="py-2 text-center">{student.id}</td>
-                            <td className="py-2">{student.name}</td>
-                            <td className="py-2">{student.email}</td>
+                            <td className="py-2 text-center">{student.name}</td>
+                            <td className="py-2 text-center">{student.email}</td>
                         </tr>
                     ))}
                 </tbody>
