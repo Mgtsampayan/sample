@@ -21,8 +21,8 @@ const DocumentVerification = () => {
           {documents.map(doc => (
             <tr key={doc.id} className="bg-gray-100">
               <td className="py-2 text-center">{doc.id}</td>
-              <td className="py-2">{doc.studentName}</td>
-              <td className="py-2">{doc.documentName}</td>
+              <td className="py-2 text-center">{doc.studentName}</td>
+              <td className="py-2 text-center">{doc.documentName}</td>
               <td className="py-2 text-center">{doc.status}</td>
             </tr>
           ))}

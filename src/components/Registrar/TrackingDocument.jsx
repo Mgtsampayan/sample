@@ -20,8 +20,8 @@ const TrackingDocument = () => {
           {trackedDocuments.map(doc => (
             <tr key={doc.id} className="bg-gray-100">
               <td className="py-2 text-center">{doc.id}</td>
-              <td className="py-2">{doc.name}</td>
-              <td className="py-2">{doc.status}</td>
+              <td className="py-2 text-center">{doc.name}</td>
+              <td className="py-2 text-center">{doc.status}</td>
             </tr>
           ))}
         </tbody>
