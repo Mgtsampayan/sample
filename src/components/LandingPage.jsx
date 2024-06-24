@@ -1,6 +1,6 @@
 import "../css/effect.css";
 import { useNavigate } from 'react-router-dom';
-import studentImg from '../images/student.png';
+import studentImg from '../images/students.png';
 import facultyImg from '../images/faculty.png';
 import adminImg from '../images/admin.png';
 
