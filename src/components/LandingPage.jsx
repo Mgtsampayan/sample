@@ -1,7 +1,7 @@
 import "../css/effect.css";
 import { useNavigate } from 'react-router-dom';
 import studentImg from '../images/students.png';
-import facultyImg from '../images/faculty.png';
+import facultyImg from '../images/facultys.jpg';
 import adminImg from '../images/admin.png';
 
 const LandingPage = () => {
